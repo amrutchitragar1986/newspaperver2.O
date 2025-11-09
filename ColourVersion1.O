@@ -1,0 +1,618 @@
+/* Blogger-Compatible CSS - COLORFUL VERSION for Learn With Amrut */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Merriweather:wght@300;400;700&display=swap');
+
+/* Reset Blogger Defaults */
+.article-container * {
+    box-sizing: border-box !important;
+}
+
+.article-container {
+    max-width: 100% !important;
+    margin: 0 auto !important;
+    padding: 5px !important;
+    font-family: 'Merriweather', serif !important;
+    color: #1a1a1a !important;
+    line-height: 1.7 !important;
+    background-color: transparent !important;
+}
+
+/* Category Tag - Now with gradient background */
+.article-category {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+    color: #fff !important;
+    font-weight: bold !important;
+    font-size: 12px !important;
+    text-transform: uppercase !important;
+    margin: 5px 0 !important;
+    padding: 6px 15px !important;
+    letter-spacing: 0.5px !important;
+    display: inline-block !important;
+    border-radius: 20px !important;
+    box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3) !important;
+}
+
+/* Main Headline - With colorful underline */
+.article-headline {
+    font-family: 'Playfair Display', serif !important;
+    font-size: 36px !important;
+    font-weight: 900 !important;
+    line-height: 1.1 !important;
+    margin: 8px 0 !important;
+    padding: 0 0 10px 0 !important;
+    color: #000 !important;
+    letter-spacing: -0.5px !important;
+    border-bottom: 4px solid transparent !important;
+    border-image: linear-gradient(90deg, #667eea, #764ba2, #f093fb, #4facfe) 1 !important;
+}
+
+/* Subtitle - With accent color */
+.article-subtitle {
+    font-family: 'Playfair Display', serif !important;
+    font-size: 18px !important;
+    font-style: italic !important;
+    color: #667eea !important;
+    margin: 5px 0 8px 0 !important;
+    padding: 0 !important;
+}
+
+/* Meta Info - Colorful border */
+.article-meta {
+    font-size: 12px !important;
+    color: #666 !important;
+    margin: 5px 0 !important;
+    padding: 5px 0 !important;
+    border-bottom: 3px solid transparent !important;
+    border-image: linear-gradient(90deg, #4facfe, #00f2fe) 1 !important;
+}
+
+/* Author Strip - Gradient background */
+.author-strip {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%) !important;
+    border: none !important;
+    padding: 12px !important;
+    margin: 8px 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 10px !important;
+    flex-wrap: wrap !important;
+    border-radius: 8px !important;
+    box-shadow: 0 4px 15px rgba(240, 147, 251, 0.3) !important;
+}
+
+.author-photo {
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50% !important;
+    border: 3px solid #fff !important;
+    background: linear-gradient(135deg, #667eea, #764ba2) !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-size: 18px !important;
+    flex-shrink: 0 !important;
+    color: #fff !important;
+    font-weight: bold !important;
+}
+
+.author-info {
+    flex: 1 !important;
+    min-width: 200px !important;
+}
+
+.author-name {
+    font-weight: bold !important;
+    font-size: 14px !important;
+    margin: 0 0 3px 0 !important;
+    padding: 0 !important;
+    color: #fff !important;
+}
+
+.author-title {
+    font-size: 11px !important;
+    color: #fff !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    opacity: 0.9 !important;
+}
+
+/* Social Share Buttons - Enhanced with brand colors */
+.social-share {
+    display: flex !important;
+    gap: 8px !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    margin: 10px 0 !important;
+}
+
+.share-btn {
+    padding: 10px 18px !important;
+    border: none !important;
+    background-color: #fff !important;
+    text-decoration: none !important;
+    color: #000 !important;
+    font-size: 11px !important;
+    font-weight: bold !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 5px !important;
+    transition: all 0.3s ease !important;
+    border-radius: 25px !important;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1) !important;
+}
+
+.share-btn:hover {
+    transform: translateY(-3px) !important;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2) !important;
+}
+
+.share-btn-facebook {
+    background: linear-gradient(135deg, #1877f2, #4267b2) !important;
+    color: #fff !important;
+}
+
+.share-btn-twitter {
+    background: linear-gradient(135deg, #1da1f2, #0e71c8) !important;
+    color: #fff !important;
+}
+
+.share-btn-linkedin {
+    background: linear-gradient(135deg, #0077b5, #005582) !important;
+    color: #fff !important;
+}
+
+.share-btn-whatsapp {
+    background: linear-gradient(135deg, #25d366, #128c7e) !important;
+    color: #fff !important;
+}
+
+.share-btn-pinterest {
+    background: linear-gradient(135deg, #e60023, #bd081c) !important;
+    color: #fff !important;
+}
+
+/* Main Image - Colorful border */
+.article-image {
+    width: 100% !important;
+    max-width: 100% !important;
+    border: 4px solid transparent !important;
+    border-image: linear-gradient(135deg, #667eea, #764ba2, #f093fb) 1 !important;
+    margin: 8px 0 !important;
+    padding: 8px !important;
+    background-color: #f5f5f5 !important;
+    min-height: 200px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    border-radius: 5px !important;
+}
+
+.article-image img {
+    max-width: 100% !important;
+    height: auto !important;
+    display: block !important;
+    border-radius: 3px !important;
+}
+
+.image-caption {
+    text-align: center !important;
+    font-size: 11px !important;
+    font-style: italic !important;
+    margin: 5px 0 !important;
+    padding: 0 !important;
+    color: #667eea !important;
+    font-weight: 600 !important;
+}
+
+/* Article Body */
+.article-body {
+    font-size: 16px !important;
+    line-height: 1.75 !important;
+    color: #1a1a1a !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Headers with colorful accents */
+.article-body h2 {
+    font-family: 'Playfair Display', serif !important;
+    font-size: 24px !important;
+    font-weight: 700 !important;
+    margin: 20px 0 8px 0 !important;
+    padding: 0 0 8px 0 !important;
+    color: #000 !important;
+    border-bottom: 4px solid transparent !important;
+    border-image: linear-gradient(90deg, #4facfe, #00f2fe, #43e97b) 1 !important;
+    background: linear-gradient(135deg, #667eea15, #764ba215) !important;
+    padding: 10px !important;
+    border-radius: 5px !important;
+}
+
+.article-body h3 {
+    font-family: 'Playfair Display', serif !important;
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    margin: 15px 0 8px 0 !important;
+    padding: 8px 12px !important;
+    color: #667eea !important;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2) !important;
+    border-left: 5px solid #667eea !important;
+    border-radius: 3px !important;
+}
+
+.article-body p {
+    margin: 0 0 12px 0 !important;
+    padding: 0 !important;
+    text-align: justify !important;
+    text-indent: 20px !important;
+}
+
+.article-body p:first-of-type::first-letter {
+    font-size: 50px !important;
+    font-weight: bold !important;
+    float: left !important;
+    line-height: 40px !important;
+    padding-right: 5px !important;
+    margin-top: 3px !important;
+    font-family: 'Playfair Display', serif !important;
+    background: linear-gradient(135deg, #667eea, #764ba2) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    background-clip: text !important;
+}
+
+/* Blockquotes - Colorful styling */
+.article-body blockquote {
+    border-left: 5px solid #f093fb !important;
+    background: linear-gradient(135deg, #fff5f5, #ffe0f0) !important;
+    padding: 15px 20px !important;
+    margin: 15px 0 !important;
+    font-style: italic !important;
+    font-size: 15px !important;
+    border-radius: 5px !important;
+    box-shadow: 0 3px 10px rgba(240, 147, 251, 0.2) !important;
+}
+
+/* Colorful Table Styling */
+.simple-table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+    margin: 15px 0 !important;
+    font-size: 13px !important;
+    background-color: #fff !important;
+    overflow-x: auto !important;
+    display: block !important;
+    border-radius: 8px !important;
+    overflow: hidden !important;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1) !important;
+}
+
+.simple-table table {
+    width: 100% !important;
+    border: none !important;
+}
+
+.simple-table th {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+    color: #fff !important;
+    padding: 12px !important;
+    text-align: left !important;
+    font-weight: bold !important;
+    border: none !important;
+}
+
+.simple-table td {
+    padding: 10px !important;
+    border: 1px solid #e0e0e0 !important;
+    text-align: left !important;
+    vertical-align: top !important;
+}
+
+.simple-table tr:nth-child(even) {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%) !important;
+}
+
+.simple-table tr:nth-child(odd) {
+    background-color: #fff !important;
+}
+
+.simple-table tr:hover {
+    background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%) !important;
+    transition: all 0.3s ease !important;
+}
+
+/* Separator Line - Gradient */
+.separator-line {
+    border: none !important;
+    height: 3px !important;
+    background: linear-gradient(90deg, #667eea, #764ba2, #f093fb, #4facfe) !important;
+    margin: 20px 0 !important;
+    padding: 0 !important;
+    border-radius: 10px !important;
+}
+
+/* CTA Box - Enhanced gradient */
+.cta-box {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%) !important;
+    color: #fff !important;
+    border: none !important;
+    padding: 20px !important;
+    margin: 20px 0 !important;
+    text-align: center !important;
+    border-radius: 10px !important;
+    box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4) !important;
+}
+
+.cta-box h3 {
+    color: #fff !important;
+    font-size: 22px !important;
+    margin: 0 0 10px 0 !important;
+    border: none !important;
+    padding: 0 !important;
+    text-shadow: 0 2px 10px rgba(0,0,0,0.2) !important;
+}
+
+.cta-box p {
+    color: #fff !important;
+    margin: 0 0 15px 0 !important;
+    text-indent: 0 !important;
+    font-size: 14px !important;
+}
+
+.cta-button {
+    display: inline-block !important;
+    padding: 12px 30px !important;
+    background-color: #fff !important;
+    color: #667eea !important;
+    text-decoration: none !important;
+    font-weight: bold !important;
+    border: none !important;
+    border-radius: 25px !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 5px 15px rgba(255,255,255,0.3) !important;
+}
+
+.cta-button:hover {
+    background-color: #f093fb !important;
+    color: #fff !important;
+    transform: scale(1.08) !important;
+    box-shadow: 0 8px 25px rgba(240, 147, 251, 0.5) !important;
+}
+
+/* Featured Articles Box - Vibrant yellow */
+.featured-box {
+    background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%) !important;
+    border: 3px solid #f093fb !important;
+    padding: 20px !important;
+    margin: 20px 0 !important;
+    border-radius: 10px !important;
+    box-shadow: 0 5px 20px rgba(252, 182, 159, 0.3) !important;
+}
+
+.featured-box h3 {
+    font-family: 'Playfair Display', serif !important;
+    font-size: 22px !important;
+    margin: 0 0 15px 0 !important;
+    padding: 0 0 10px 0 !important;
+    border-bottom: 3px solid #f093fb !important;
+    color: #764ba2 !important;
+}
+
+.featured-list {
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.featured-list li {
+    margin: 10px 0 !important;
+    padding: 12px !important;
+    background-color: #fff !important;
+    border: 2px solid #f093fb !important;
+    transition: all 0.3s ease !important;
+    border-radius: 5px !important;
+}
+
+.featured-list li:hover {
+    background: linear-gradient(135deg, #fff5f5, #ffe0f0) !important;
+    transform: translateX(8px) !important;
+    box-shadow: 0 3px 15px rgba(240, 147, 251, 0.3) !important;
+}
+
+.featured-list a {
+    text-decoration: none !important;
+    color: #764ba2 !important;
+    font-weight: bold !important;
+    font-size: 15px !important;
+    display: block !important;
+}
+
+.featured-list a:hover {
+    color: #667eea !important;
+}
+
+.featured-desc {
+    font-size: 13px !important;
+    color: #666 !important;
+    margin: 5px 0 0 0 !important;
+    text-indent: 0 !important;
+}
+
+/* FAQ Section - Blue gradient */
+.faq-section {
+    background: linear-gradient(135deg, #e0f7fa 0%, #b2ebf2 100%) !important;
+    border: 3px solid #4facfe !important;
+    padding: 20px !important;
+    margin: 20px 0 !important;
+    border-radius: 10px !important;
+    box-shadow: 0 5px 20px rgba(79, 172, 254, 0.3) !important;
+}
+
+.faq-section h2 {
+    font-family: 'Playfair Display', serif !important;
+    font-size: 26px !important;
+    margin: 0 0 15px 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    color: #0077b5 !important;
+}
+
+.faq-item {
+    margin: 15px 0 !important;
+    padding: 15px !important;
+    background-color: #fff !important;
+    border: 2px solid #4facfe !important;
+    border-radius: 8px !important;
+    transition: all 0.3s ease !important;
+}
+
+.faq-item:hover {
+    background: linear-gradient(135deg, #e1f5fe, #b3e5fc) !important;
+    box-shadow: 0 5px 15px rgba(79, 172, 254, 0.3) !important;
+}
+
+.faq-question {
+    font-weight: bold !important;
+    font-size: 16px !important;
+    margin: 0 0 8px 0 !important;
+    color: #0077b5 !important;
+}
+
+.faq-answer {
+    font-size: 14px !important;
+    line-height: 1.6 !important;
+    margin: 0 !important;
+    text-indent: 0 !important;
+}
+
+/* Author Note Box - Green theme */
+.author-note {
+    background: linear-gradient(135deg, #d4fc79 0%, #96e6a1 100%) !important;
+    border: 3px solid #43e97b !important;
+    padding: 15px !important;
+    margin: 15px 0 !important;
+    border-radius: 10px !important;
+    box-shadow: 0 5px 20px rgba(67, 233, 123, 0.3) !important;
+}
+
+.author-note h3 {
+    font-family: 'Playfair Display', serif !important;
+    font-size: 18px !important;
+    margin: 0 0 8px 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    color: #2d7a3e !important;
+}
+
+.author-note p {
+    text-indent: 0 !important;
+    margin: 0 0 8px 0 !important;
+    color: #1a1a1a !important;
+}
+
+.author-signature {
+    font-style: italic !important;
+    text-align: right !important;
+    margin: 10px 0 0 0 !important;
+    font-weight: bold !important;
+    font-size: 14px !important;
+    color: #2d7a3e !important;
+}
+
+/* Footer - Dark gradient */
+.article-footer {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+    color: #fff !important;
+    padding: 20px !important;
+    margin: 20px 0 0 0 !important;
+    text-align: center !important;
+    border: none !important;
+    border-radius: 10px !important;
+    box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4) !important;
+}
+
+.footer-links {
+    margin: 10px 0 !important;
+    padding: 0 !important;
+}
+
+.footer-links a {
+    color: #fff !important;
+    text-decoration: none !important;
+    margin: 0 10px !important;
+    font-size: 13px !important;
+    padding: 5px 10px !important;
+    border-radius: 15px !important;
+    transition: all 0.3s ease !important;
+}
+
+.footer-links a:hover {
+    background-color: rgba(255,255,255,0.2) !important;
+    transform: translateY(-2px) !important;
+}
+
+.copyright {
+    font-size: 13px !important;
+    margin: 10px 0 0 0 !important;
+    padding: 10px 0 0 0 !important;
+    border-top: 1px solid rgba(255,255,255,0.3) !important;
+}
+
+/* Ad Space - Colorful */
+.ad-space {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%) !important;
+    border: 2px dashed #667eea !important;
+    padding: 10px !important;
+    text-align: center !important;
+    margin: 10px 0 !important;
+    min-height: 90px !important;
+    border-radius: 8px !important;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .article-headline {
+        font-size: 28px !important;
+    }
+
+    .article-body {
+        font-size: 15px !important;
+    }
+
+    .article-body h2 {
+        font-size: 22px !important;
+    }
+
+    .author-strip {
+        flex-direction: column !important;
+        text-align: center !important;
+    }
+
+    .social-share {
+        justify-content: center !important;
+    }
+
+    .simple-table {
+        font-size: 12px !important;
+    }
+
+    .simple-table th,
+    .simple-table td {
+        padding: 5px !important;
+    }
+
+    .footer-links a {
+        display: block !important;
+        margin: 5px 0 !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .article-headline {
+        font-size: 24px !important;
+    }
+
+    .article-body {
+        font-size: 14px !important;
+    }
+}
